@@ -1,0 +1,670 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Wesley Prado - Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- PERFORMANCE -->
+    <link
+      rel="preload"
+      fetchpriority="high"
+      as="image"
+      href="./assets/header/cyberpunk-city.jpg"
+      type="image/jpg"
+    />
+
+    <!-- ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,-25"
+    />
+  </head>
+
+  <body>
+    <div id="device-not-supported">
+      <span class="material-symbols-outlined"> warning </span>
+      <p>Este dispositivo não é suportado!</p>
+      <p>Visualização disponível apenas em modo desktop.</p>
+    </div>
+
+    <div class="container">
+      <header>
+        <nav class="header__nav">
+          <a href="/" class="header__nav-logo">
+            <p>Wesley Prado</p>
+          </a>
+          <ul class="header__list">
+            <li class="header__list-item">
+              <a href="#about" class="glitchy_link">Sobre</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#skills" class="glitchy_link">Habilidades</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#experience" class="glitchy_link">Experiência</a>
+            </li>
+            <li class="header__list-item">
+              <a href="#projects" class="glitchy_link">Projetos</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero__section">
+          <div class="scrolling-text--right prevent-select">
+            <p>
+              Inovação tecnológica - Soluções escaláveis - Transformação digital
+              - Segurança da informação - Desenvolvimento ágil - Integração de
+              sistemas
+            </p>
+          </div>
+
+          <div class="hero__background"></div>
+
+          <div class="profile__container">
+            <div class="profile-title__container">
+              <div class="profile-title__item">
+                <h1 class="hero__section-title glitch">Wesley Prado</h1>
+              </div>
+
+              <div class="profile-title__item">
+                <h2 class="hero__section-subtitle">
+                  Desenvolvedor Salesforce | Eng. de Software
+                </h2>
+              </div>
+
+              <div class="profile-title__item-links personal-info__container">
+                <a
+                  class="profile-title__personal-info-link"
+                  href="https://github.com/wesley-prado"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-title__personal-info-icon prevent-select"
+                    src="./assets/header/github.png"
+                    alt="acessar Github"
+                    title="Github"
+                  />
+                  wesley-prado
+                </a>
+
+                <a
+                  class="profile-title__personal-info-link"
+                  href="https://www.linkedin.com/in/wesley-santana-prado/"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-title__personal-info-icon prevent-select"
+                    src="./assets/header/linkedin.png"
+                    alt="acessar LinkedIn"
+                    title="LinkedIn"
+                  />
+                  /in/wesley-santana-prado
+                </a>
+
+                <a
+                  class="profile-title__personal-info-link"
+                  href="mailto:wesleyprado.dev@gmail.com"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-title__personal-info-icon prevent-select"
+                    src="./assets/header/email.png"
+                    alt="Enviar Email"
+                    title="Email"
+                  />
+                  wesleyprado.dev@gmail.com
+                </a>
+
+                <a
+                  class="profile-title__personal-info-link"
+                  href="https://www.google.com/maps/place/Sorocaba+-+SP/@-23.4697804,-47.6016021,11z/data=!3m1!4b1!4m6!3m5!1s0x94c58abceb48f503:0x947f99ac59d0781b!8m2!3d-23.470905!4d-47.4851488!16zL20vMDJ4NzJt?entry=ttu"
+                  target="_blank"
+                >
+                  <img
+                    class="profile-title__personal-info-icon prevent-select"
+                    src="./assets/header/home.png"
+                    alt="Visualizar endereço no mapa"
+                    title="Endereço"
+                  />
+                  Sorocaba, SP
+                </a>
+              </div>
+            </div>
+
+            <div class="profile-image__wrapper prevent-select">
+              <img
+                draggable="false"
+                class="profile-image"
+                src="./assets/header/wesley.jpg"
+                alt="Foto de perfil"
+                title="Wesley Prado"
+              />
+            </div>
+          </div>
+
+          <div class="scrolling-text--left prevent-select">
+            <p>
+              Inovação tecnológica - Soluções escaláveis - Transformação digital
+              - Segurança da informação - Desenvolvimento ágil - Integração de
+              sistemas
+            </p>
+          </div>
+        </section>
+
+        <section class="about__section">
+          <h2 id="about" class="stylish-bottom-border scroll-margin--20">
+            Um pouco de mim
+          </h2>
+          <div class="curtain__container stylish-bottom-border">
+            <div class="curtain-item"></div>
+            <p>
+              Engenheiro de Software apaixonado por código e desafios. Há três
+              anos, mergulho de cabeça no universo Salesforce, construindo
+              soluções incríveis para problemas complexos. Quando criança, era
+              bastante curioso para entender como as coisas funcionavam e sempre
+              fui fascinado por videogames e novas tecnologias. Nessa época,
+              abri alguns servidores de jogos pequenos, desenvolvi sites em
+              WordPress para download de arquivos e landing pages para
+              servidores de jogos. Também gostava muito de desenhar. Passei a me
+              interessar pela área quando me matriculei em um curso técnico de
+              Desenvolvimento de Sistemas. Em 2020, iniciei a graduação em
+              Análise e Desenvolvimento de Sistemas na UNIP, foi quando comecei
+              a estagiar na área de desenvolvimento na plataforma Salesforce.
+              Troquei de faculdade e atualmente curso Engenharia de Software na
+              Infnet. Desde então, venho me aprimorando a cada dia, aprendendo
+              novas tecnologias, novas formas de resolver problemas, etc.
+            </p>
+          </div>
+        </section>
+
+        <section id="skills" class="skills__section scroll-margin--20">
+          <div class="skills__title-container">
+            <h2 class="title skills__title">Habilidades</h2>
+          </div>
+          <div class="skills__container">
+            <ul class="accordion__container">
+              <li class="accordion__title">
+                <h3>Hard Skills</h3>
+              </li>
+              <li class="accordion__item">
+                <button class="accordion__btn">
+                  Salesforce Core / Omnistudio
+                  <span
+                    data-name="expand-icon"
+                    class="material-symbols-outlined"
+                  >
+                    add
+                  </span>
+                  <span
+                    data-name="collapse-icon"
+                    class="material-symbols-outlined hide-icon"
+                  >
+                    remove
+                  </span>
+                </button>
+                <div class="accordion__panel">
+                  <p>
+                    Possuo amplo conhecimento em desenvolvimento na plataforma
+                    Salesforce Core, com 5 certificações. Posso auxiliar o
+                    projeto na resolução de problemas complexos, utilizando
+                    abordagens low-code ou programáticas. As ferramentas mais
+                    utilizadas no dia-a-dia são Flows, Apex e Javascript.
+                  </p>
+                </div>
+              </li>
+
+              <li class="accordion__item">
+                <button class="accordion__btn">
+                  Testes
+                  <span
+                    data-name="expand-icon"
+                    class="material-symbols-outlined"
+                  >
+                    add
+                  </span>
+                  <span
+                    data-name="collapse-icon"
+                    class="material-symbols-outlined hide-icon"
+                  >
+                    remove
+                  </span>
+                </button>
+                <div class="accordion__panel">
+                  <p>
+                    Experiência em desenvolvimento e execução de testes de
+                    unidade e integração e sistema, garantindo a qualidade e
+                    confiabilidade dos sistemas desenvolvidos.
+                  </p>
+                </div>
+              </li>
+
+              <li class="accordion__item">
+                <button class="accordion__btn">
+                  Javascript
+                  <span
+                    data-name="expand-icon"
+                    class="material-symbols-outlined"
+                  >
+                    add
+                  </span>
+                  <span
+                    data-name="collapse-icon"
+                    class="material-symbols-outlined hide-icon"
+                  >
+                    remove
+                  </span>
+                </button>
+                <div class="accordion__panel">
+                  <p>
+                    Possuo um sólido conhecimento adquirido ao longo de anos de
+                    estudo e experiência na utilização de frameworks front-end
+                    como LWC, Aura, React, entre outros.
+                  </p>
+                </div>
+              </li>
+
+              <li class="accordion__item">
+                <button class="accordion__btn">
+                  Clean Code & Design Patterns
+                  <span
+                    data-name="expand-icon"
+                    class="material-symbols-outlined"
+                  >
+                    add
+                  </span>
+                  <span
+                    data-name="collapse-icon"
+                    class="material-symbols-outlined hide-icon"
+                  >
+                    remove
+                  </span>
+                </button>
+                <div class="accordion__panel">
+                  <p>
+                    Constantemente estudo e aplico boas práticas de
+                    desenvolvimento, visando tornar o código mais eficiente e
+                    fácil de manter.
+                  </p>
+                </div>
+              </li>
+
+              <li class="accordion__item">
+                <button class="accordion__btn">
+                  Java
+                  <span
+                    data-name="expand-icon"
+                    class="material-symbols-outlined"
+                  >
+                    add
+                  </span>
+                  <span
+                    data-name="collapse-icon"
+                    class="material-symbols-outlined hide-icon"
+                  >
+                    remove
+                  </span>
+                </button>
+                <div class="accordion__panel">
+                  <p>
+                    Linguagem semelhante ao Apex da Salesforce. Iniciei os
+                    estudos em Java em janeiro de 2024 e tenho desenvolvido
+                    pequenos projetos pessoais desde então.
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <ul class="accordion__container">
+              <li class="accordion__title">
+                <h3>Soft Skills</h3>
+              </li>
+              <li class="accordion__item">
+                <button class="accordion__btn">
+                  Proatividade e Curiosidade
+                  <span
+                    data-name="expand-icon"
+                    class="material-symbols-outlined"
+                  >
+                    add
+                  </span>
+                  <span
+                    data-name="collapse-icon"
+                    class="material-symbols-outlined hide-icon"
+                  >
+                    remove
+                  </span>
+                </button>
+                <div class="accordion__panel">
+                  <p>
+                    Busco continuamente aprender novas tecnologias e estratégias
+                    para otimizar a resolução de problemas.
+                  </p>
+                </div>
+              </li>
+              <li class="accordion__item">
+                <button class="accordion__btn">
+                  Trabalho em Equipe e Mentoria
+                  <span
+                    data-name="expand-icon"
+                    class="material-symbols-outlined"
+                  >
+                    add
+                  </span>
+                  <span
+                    data-name="collapse-icon"
+                    class="material-symbols-outlined hide-icon"
+                  >
+                    remove
+                  </span>
+                </button>
+                <div class="accordion__panel">
+                  <p>
+                    Estou sempre disposto a auxiliar e orientar minha equipe,
+                    seja através do ensino de novos conceitos, resolução de
+                    problemas ou desenvolvimento de soluções reutilizáveis para
+                    o projeto.
+                  </p>
+                </div>
+              </li>
+              <li class="accordion__item">
+                <button class="accordion__btn">
+                  Flexibilidade e Otimismo
+                  <span
+                    data-name="expand-icon"
+                    class="material-symbols-outlined"
+                  >
+                    add
+                  </span>
+                  <span
+                    data-name="collapse-icon"
+                    class="material-symbols-outlined hide-icon"
+                  >
+                    remove
+                  </span>
+                </button>
+                <div class="accordion__panel">
+                  <p>
+                    Mantenho uma abordagem flexível diante das mudanças e
+                    desafios, mantendo-me otimista e motivado para enfrentar
+                    qualquer situação.
+                  </p>
+                </div>
+              </li>
+              <li class="accordion__item">
+                <button class="accordion__btn">
+                  Dedicação à Qualidade
+                  <span
+                    data-name="expand-icon"
+                    class="material-symbols-outlined"
+                  >
+                    add
+                  </span>
+                  <span
+                    data-name="collapse-icon"
+                    class="material-symbols-outlined hide-icon"
+                  >
+                    remove
+                  </span>
+                </button>
+                <div class="accordion__panel">
+                  <p>
+                    Demonstro comprometimento ao entregar resultados com a mais
+                    alta qualidade possível, garantindo que cada aspecto do
+                    trabalho seja minuciosamente revisado e aprimorado.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- TODO: Criar seção de educação -->
+        <section
+          id="experience"
+          class="exp-education__section scroll-margin--20"
+        >
+          <div class="timeline__container">
+            <h2 class="timeline__title">Educação</h2>
+
+            <div class="timeline__item">
+              <h4 class="timeline__item_title">Engenharia de Software</h4>
+              <p class="timeline__item_description">Instituto Infnet</p>
+              <p
+                class="timeline__item_description timeline__item_description--lower-opacity"
+              >
+                01/2024 - 01/2028
+              </p>
+              <p
+                class="timeline__item_description timeline__item_description--lower-opacity"
+              >
+                Cursando
+              </p>
+            </div>
+
+            <div class="timeline__item">
+              <h4 class="timeline__item_title">Ciência da Computação</h4>
+              <p class="timeline__item_description">
+                Descomplica Faculdade Digital
+              </p>
+              <p
+                class="timeline__item_description timeline__item_description--lower-opacity"
+              >
+                01/2022 - 03/2023
+              </p>
+              <p
+                class="timeline__item_description timeline__item_description--lower-opacity"
+              >
+                Trancado
+              </p>
+            </div>
+
+            <div class="timeline__item">
+              <h4 class="timeline__item_title">
+                Análise e Desenvolvimento de Sistemas
+              </h4>
+              <p class="timeline__item_description">UNIP</p>
+              <p
+                class="timeline__item_description timeline__item_description--lower-opacity"
+              >
+                01/2020 - 01/2022
+              </p>
+              <p
+                class="timeline__item_description timeline__item_description--lower-opacity"
+              >
+                Trancado
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline__container">
+            <h2 class="timeline__title">Experiência Profissional</h2>
+
+            <div class="timeline__item">
+              <h4 class="timeline__item_title">Globant</h4>
+              <p class="timeline__item_description">Salesforce Developer</p>
+              <p
+                class="timeline__item_description timeline__item_description--lower-opacity"
+              >
+                03/2023 - Atual
+              </p>
+            </div>
+
+            <div class="timeline__item">
+              <h4 class="timeline__item_title">LabsXD</h4>
+              <p class="timeline__item_description">SFDC & SFI Developer</p>
+              <p
+                class="timeline__item_description timeline__item_description--lower-opacity"
+              >
+                05/2022 - 02/2023
+              </p>
+            </div>
+
+            <div class="timeline__item">
+              <h4 class="timeline__item_title">Nèscara</h4>
+              <p class="timeline__item_description">Salesforce Developer</p>
+              <p
+                class="timeline__item_description timeline__item_description--lower-opacity"
+              >
+                07/2021 - 05/2022
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="projects__section scroll-margin--20">
+          <h2 class="projects__section_title">Projetos</h2>
+
+          <div class="project__cell stylish-bottom-border">
+            <h3 class="project__cell_title">
+              Wallpaper Wavygrass clock - Wallpaper Engine
+            </h3>
+            <p class="project__cell_description">
+              Desenvolvi um papel de parede interativo com relógio de múltiplas
+              localidades, permitindo personalização da cor, posição, tamanho e
+              inclusão de vídeo de fundo. O projeto foi desenvolvido utilizando
+              HTML, CSS e JavaScript, demonstrando minha habilidade em criar
+              experiências interativas e personalizáveis.
+            </p>
+            <a
+              href="https://github.com/wesley-prado/wallpaper-wavygrass-clock"
+              class="project__cell_link"
+              target="_blank"
+            >
+              <span class="material-symbols-outlined"> open_in_new </span>
+            </a>
+          </div>
+
+          <div class="project__cell stylish-bottom-border">
+            <h3 class="project__cell_title">Java prompt chess</h3>
+            <p class="project__cell_description">
+              Desenvolvi um jogo de xadrez para prompt de comando, aplicando o
+              paradigma de Orientação a Objetos (OOP) e seguindo as boas
+              práticas da linguagem Java. Este projeto demonstrou minha
+              habilidade em criar aplicações estruturadas e modularizadas, além
+              de minha compreensão dos princípios fundamentais da programação
+              orientada a objetos.
+            </p>
+            <a
+              href="https://github.com/wesley-prado/java-prompt-chess"
+              class="project__cell_link"
+              target="_blank"
+            >
+              <span class="material-symbols-outlined"> open_in_new </span>
+            </a>
+          </div>
+
+          <div class="project__cell stylish-bottom-border">
+            <h3 class="project__cell_title">B2B Launch Visualforce</h3>
+            <p class="project__cell_description">
+              Desenvolvi páginas para um site B2B, incluindo funcionalidades
+              como visualização de produtos, carrinho de compras, resumo dos
+              itens no carrinho, página de pedidos e página de erro 404. O
+              projeto foi implementado utilizando Visualforce, Apex e
+              JavaScript, com ênfase em boas práticas de desenvolvimento e
+              responsividade, garantindo uma experiência de usuário otimizada em
+              diferentes dispositivos.
+            </p>
+            <a
+              href="https://github.com/wesley-prado/B2B-Launch-Visualforce"
+              class="project__cell_link"
+              target="_blank"
+            >
+              <span class="material-symbols-outlined"> open_in_new </span>
+            </a>
+          </div>
+
+          <div class="project__cell stylish-bottom-border">
+            <h3 class="project__cell_title">Cadastro Pacientes COVID</h3>
+            <p class="project__cell_description">
+              Desenvolvi um desafio em C para cadastrar pacientes. Se o paciente
+              tiver mais de 65 anos, é necessário informar o endereço. Um
+              arquivo txt é gerado com os dados do paciente. Este projeto
+              mostrou minha habilidade em C e aprofundou meu entendimento das
+              linguagens de mais baixo nível.
+            </p>
+            <a
+              href="https://github.com/wesley-prado/cadastro-pacientes-covid"
+              class="project__cell_link"
+              target="_blank"
+            >
+              <span class="material-symbols-outlined"> open_in_new </span>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="credits__footer prevent-select">
+          <h3 class="credits__footer_title">Créditos</h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.flaticon.com/free-icons/github"
+                title="github icons"
+                >Github icons created by Dave Gandy - Flaticon</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.flaticon.com/free-icons/linkedin"
+                title="linkedin icons"
+                >Linkedin icons created by Google - Flaticon</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.flaticon.com/free-icons/email"
+                title="email icons"
+                >Email icons created by Freepik - Flaticon</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.flaticon.com/free-icons/home-button"
+                title="home button icons"
+                >Home button icons created by Freepik - Flaticon</a
+              >
+            </li>
+          </ul>
+        </div>
+        <img
+          draggable="false"
+          class="footer__sun prevent-select"
+          src="./assets/footer/vaporwave_sun.png"
+          aria-hidden="true"
+          alt=""
+        />
+        <img
+          draggable="false"
+          class="footer__sun--blur prevent-select"
+          src="./assets/footer/vaporwave_sun.png"
+          aria-hidden="true"
+          alt=""
+        />
+        <span class="footer__year">2024</span>
+        <div class="lighth">
+          <div class="lightv"></div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./vendors/powerglitch.js"></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
